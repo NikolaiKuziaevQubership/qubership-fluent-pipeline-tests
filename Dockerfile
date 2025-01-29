@@ -13,7 +13,6 @@ RUN go mod download
 
 # Copy the go source
 COPY main.go main.go
-#COPY controllers/utils/ controllers/utils/
 COPY agent/ agent/
 COPY stage/ stage/
 
